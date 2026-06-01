@@ -1,145 +1,145 @@
 <svg width="1200" height="1400" viewBox="0 0 680 824" role="img" style="" xmlns="http://www.w3.org/2000/svg">
-  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:14px;font-style:normal;font-weight:normal;text-decoration:none;text-anchor:start;dominant-baseline:auto;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">Agentic AI LangGraph Workflow</title>
-  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:14px;font-style:normal;font-weight:normal;text-decoration:none;text-anchor:start;dominant-baseline:auto;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">A flowchart depicting an agentic AI research assistant workflow built with LangGraph</desc>
+  <title>Agentic AI LangGraph Workflow</title>
+  <desc>A flowchart depicting an agentic AI research assistant workflow built with LangGraph</desc>
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
       <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </marker>
-  <mask id="imagine-text-gaps-8tqk38" maskUnits="userSpaceOnUse"><rect x="0" y="0" width="680" height="824" fill="white"/><rect x="36" y="22.44444465637207" width="81.47284698486328" height="18.222221374511719" fill="black"/><rect x="36" y="174.44444465637207" width="55.262794494628906" height="18.222221374511719" fill="black"/><rect x="36" y="314.44444465637207" width="89.74286651611328" height="18.222221374511719" fill="black"/><rect x="36" y="604.4444465637207" width="91.26530456542969" height="18.222221374511719" fill="black"/><rect x="36" y="728.4444465637207" width="76.18724060058594" height="18.222221374511719" fill="black"/></mask>
+  </defs>
 
   <!-- ── SECTION LABELS ─────────────────────────────────────────── -->
-  <text x="40" y="36" fill="var(--color-text-tertiary)" style="fill:rgb(61, 61, 58);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:12px;font-style:normal;font-weight:600;text-decoration:none;text-anchor:start;dominant-baseline:auto;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">User Input</text>
-  <text x="40" y="188" fill="var(--color-text-tertiary)" style="fill:rgb(61, 61, 58);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:12px;font-style:normal;font-weight:600;text-decoration:none;text-anchor:start;dominant-baseline:auto;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">Interface Layer</text>
-  <text x="40" y="326" fill="var(--color-text-tertiary)" style="fill:rgb(61, 61, 58);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:12px;font-style:normal;font-weight:600;text-decoration:none;text-anchor:start;dominant-baseline:auto;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">Agentic Core</text>
-  <text x="40" y="616" fill="var(--color-text-tertiary)" style="fill:rgb(61, 61, 58);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:12px;font-style:normal;font-weight:600;text-decoration:none;text-anchor:start;dominant-baseline:auto;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">External Tools</text>
-  <text x="40" y="740" fill="var(--color-text-tertiary)" style="fill:rgb(61, 61, 58);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:12px;font-style:normal;font-weight:600;text-decoration:none;text-anchor:start;dominant-baseline:auto;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">Memory System</text>
+  <text x="40" y="36" fill="rgb(61, 61, 58)" font-size="12px" font-weight="600">User Input</text>
+  <text x="40" y="188" fill="rgb(61, 61, 58)" font-size="12px" font-weight="600">Interface Layer</text>
+  <text x="40" y="326" fill="rgb(61, 61, 58)" font-size="12px" font-weight="600">Agentic Core</text>
+  <text x="40" y="616" fill="rgb(61, 61, 58)" font-size="12px" font-weight="600">External Tools</text>
+  <text x="40" y="740" fill="rgb(61, 61, 58)" font-size="12px" font-weight="600">Memory System</text>
 
   <!-- Divider lines -->
-  <line x1="40" y1="42" x2="640" y2="42" stroke="var(--color-border-tertiary)" stroke-width="0.5" stroke-dasharray="4 4" style="fill:rgb(0, 0, 0);stroke:rgba(31, 30, 29, 0.15);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
-  <line x1="40" y1="196" x2="640" y2="196" stroke="var(--color-border-tertiary)" stroke-width="0.5" stroke-dasharray="4 4" style="fill:rgb(0, 0, 0);stroke:rgba(31, 30, 29, 0.15);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
-  <line x1="40" y1="334" x2="640" y2="334" stroke="var(--color-border-tertiary)" stroke-width="0.5" stroke-dasharray="4 4" style="fill:rgb(0, 0, 0);stroke:rgba(31, 30, 29, 0.15);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
-  <line x1="40" y1="624" x2="640" y2="624" stroke="var(--color-border-tertiary)" stroke-width="0.5" stroke-dasharray="4 4" style="fill:rgb(0, 0, 0);stroke:rgba(31, 30, 29, 0.15);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
-  <line x1="40" y1="748" x2="640" y2="748" stroke="var(--color-border-tertiary)" stroke-width="0.5" stroke-dasharray="4 4" style="fill:rgb(0, 0, 0);stroke:rgba(31, 30, 29, 0.15);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
+  <line x1="40" y1="42" x2="640" y2="42" stroke="rgba(31, 30, 29, 0.15)" stroke-width="0.5" stroke-dasharray="4 4"/>
+  <line x1="40" y1="196" x2="640" y2="196" stroke="rgba(31, 30, 29, 0.15)" stroke-width="0.5" stroke-dasharray="4 4"/>
+  <line x1="40" y1="334" x2="640" y2="334" stroke="rgba(31, 30, 29, 0.15)" stroke-width="0.5" stroke-dasharray="4 4"/>
+  <line x1="40" y1="624" x2="640" y2="624" stroke="rgba(31, 30, 29, 0.15)" stroke-width="0.5" stroke-dasharray="4 4"/>
+  <line x1="40" y1="748" x2="640" y2="748" stroke="rgba(31, 30, 29, 0.15)" stroke-width="0.5" stroke-dasharray="4 4"/>
 
   <!-- ── USER ───────────────────────────────────────────────────── -->
-  <g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:14px;font-style:normal;font-weight:normal;text-decoration:none;text-anchor:start;dominant-baseline:auto;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">
-    <rect x="255" y="56" width="170" height="56" rx="8" stroke-width="0.5" style="fill:rgb(241, 239, 232);stroke:rgb(95, 94, 90);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
-    <text x="340" y="78" text-anchor="middle" dominant-baseline="central" style="fill:rgb(68, 68, 65);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:13px;font-style:normal;font-weight:600;text-decoration:none;text-anchor:middle;dominant-baseline:central;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">User</text>
-    <text x="340" y="96" text-anchor="middle" dominant-baseline="central" style="fill:rgb(95, 94, 90);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:12px;font-style:normal;font-weight:normal;text-decoration:none;text-anchor:middle;dominant-baseline:central;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">Query/Chat</text>
+  <g>
+    <rect x="255" y="56" width="170" height="56" rx="8" fill="rgb(241, 239, 232)" stroke="rgb(95, 94, 90)" stroke-width="0.5"/>
+    <text x="340" y="78" text-anchor="middle" dominant-baseline="central" fill="rgb(68, 68, 65)" font-size="13px" font-weight="600">User</text>
+    <text x="340" y="96" text-anchor="middle" dominant-baseline="central" fill="rgb(95, 94, 90)" font-size="12px">Query/Chat</text>
   </g>
 
   <!-- User → Gradio -->
-  <line x1="340" y1="112" x2="340" y2="204" marker-end="url(#arrow)" style="fill:none;stroke:rgb(115, 114, 108);color:rgb(0, 0, 0);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
+  <line x1="340" y1="112" x2="340" y2="204" stroke="rgb(115, 114, 108)" stroke-width="1.5" marker-end="url(#arrow)"/>
 
   <!-- ── GRADIO UI ──────────────────────────────────────────────── -->
-  <g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:14px;font-style:normal;font-weight:normal;text-decoration:none;text-anchor:start;dominant-baseline:auto;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">
-    <rect x="215" y="208" width="250" height="56" rx="8" stroke-width="0.5" style="fill:rgb(225, 245, 238);stroke:rgb(15, 110, 86);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
-    <text x="340" y="230" text-anchor="middle" dominant-baseline="central" style="fill:rgb(8, 80, 65);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:13px;font-style:normal;font-weight:600;text-decoration:none;text-anchor:middle;dominant-baseline:central;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">Gradio UI</text>
-    <text x="340" y="248" text-anchor="middle" dominant-baseline="central" style="fill:rgb(15, 110, 86);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:12px;font-style:normal;font-weight:normal;text-decoration:none;text-anchor:middle;dominant-baseline:central;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">Chat Interface</text>
+  <g>
+    <rect x="215" y="208" width="250" height="56" rx="8" fill="rgb(225, 245, 238)" stroke="rgb(15, 110, 86)" stroke-width="0.5"/>
+    <text x="340" y="230" text-anchor="middle" dominant-baseline="central" fill="rgb(8, 80, 65)" font-size="13px" font-weight="600">Gradio UI</text>
+    <text x="340" y="248" text-anchor="middle" dominant-baseline="central" fill="rgb(15, 110, 86)" font-size="12px">Chat Interface</text>
   </g>
 
   <!-- Gradio → LangGraph entry -->
-  <line x1="340" y1="264" x2="340" y2="342" marker-end="url(#arrow)" style="fill:none;stroke:rgb(115, 114, 108);color:rgb(0, 0, 0);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
+  <line x1="340" y1="264" x2="340" y2="342" stroke="rgb(115, 114, 108)" stroke-width="1.5" marker-end="url(#arrow)"/>
 
   <!-- ── LANGGRAPH WORKFLOW CONTAINER ─────────────────────────── -->
-  <rect x="50" y="346" width="580" height="258" rx="14" fill="none" stroke="var(--color-border-secondary)" stroke-width="0.5" stroke-dasharray="6 3" style="fill:none;stroke:rgba(31, 30, 29, 0.3);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
+  <rect x="50" y="346" width="580" height="258" rx="14" fill="none" stroke="rgba(31, 30, 29, 0.3)" stroke-width="0.5" stroke-dasharray="6 3"/>
 
   <!-- AgentState label -->
-  <text x="66" y="368" fill="var(--color-text-tertiary)" style="fill:rgb(61, 61, 58);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:11px;font-style:normal;font-weight:600;text-decoration:none;text-anchor:start;dominant-baseline:auto;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">AgentState</text>
+  <text x="66" y="368" fill="rgb(61, 61, 58)" font-size="11px" font-weight="600">AgentState</text>
 
   <!-- ── AGENT NODE ─────────────────────────────────────────────── -->
-  <g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:14px;font-style:normal;font-weight:normal;text-decoration:none;text-anchor:start;dominant-baseline:auto;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">
-    <rect x="200" y="380" width="280" height="66" rx="8" stroke-width="0.5" style="fill:rgb(238, 237, 254);stroke:rgb(83, 74, 183);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
-    <text x="340" y="404" text-anchor="middle" dominant-baseline="central" style="fill:rgb(60, 52, 137);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:13px;font-style:normal;font-weight:600;text-decoration:none;text-anchor:middle;dominant-baseline:central;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">Agent Node</text>
-    <text x="340" y="424" text-anchor="middle" dominant-baseline="central" style="fill:rgb(83, 74, 183);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:12px;font-style:normal;font-weight:normal;text-decoration:none;text-anchor:middle;dominant-baseline:central;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">Decides Actions</text>
+  <g>
+    <rect x="200" y="380" width="280" height="66" rx="8" fill="rgb(238, 237, 254)" stroke="rgb(83, 74, 183)" stroke-width="0.5"/>
+    <text x="340" y="404" text-anchor="middle" dominant-baseline="central" fill="rgb(60, 52, 137)" font-size="13px" font-weight="600">Agent Node</text>
+    <text x="340" y="424" text-anchor="middle" dominant-baseline="central" fill="rgb(83, 74, 183)" font-size="12px">Decides Actions</text>
   </g>
 
   <!-- ── CONDITIONAL ROUTING ──────────────────────────────────── -->
   <!-- Diamond shape -->
-  <polygon points="340,474 390,504 340,534 290,504" fill="none" stroke="var(--color-border-primary)" stroke-width="0.5" style="fill:none;stroke:rgba(31, 30, 29, 0.4);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
-  <text x="340" y="508" text-anchor="middle" dominant-baseline="central" style="fill:rgb(61, 61, 58);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:11px;font-style:normal;font-weight:600;text-decoration:none;text-anchor:middle;dominant-baseline:central;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">Tools?</text>
+  <polygon points="340,474 390,504 340,534 290,504" fill="none" stroke="rgba(31, 30, 29, 0.4)" stroke-width="0.5"/>
+  <text x="340" y="508" text-anchor="middle" dominant-baseline="central" fill="rgb(61, 61, 58)" font-size="11px" font-weight="600">Tools?</text>
 
   <!-- Agent → diamond -->
-  <line x1="340" y1="446" x2="340" y2="472" marker-end="url(#arrow)" style="fill:none;stroke:rgb(115, 114, 108);color:rgb(0, 0, 0);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
+  <line x1="340" y1="446" x2="340" y2="472" stroke="rgb(115, 114, 108)" stroke-width="1.5" marker-end="url(#arrow)"/>
 
   <!-- YES branch → Tool Node (right) -->
-  <path d="M390 504 L480 504 L480 466" fill="none" stroke="var(--color-border-primary)" stroke-width="1" marker-end="url(#arrow)" style="fill:none;stroke:rgba(31, 30, 29, 0.4);color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
-  <text x="435" y="496" text-anchor="middle" fill="var(--color-text-secondary)" style="fill:rgb(61, 61, 58);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:11px;font-style:normal;font-weight:600;text-decoration:none;text-anchor:middle;dominant-baseline:auto;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">Yes</text>
+  <path d="M390 504 L480 504 L480 466" fill="none" stroke="rgba(31, 30, 29, 0.4)" stroke-width="1" marker-end="url(#arrow)"/>
+  <text x="435" y="496" text-anchor="middle" fill="rgb(61, 61, 58)" font-size="11px" font-weight="600">Yes</text>
 
   <!-- ── TOOL NODE ──────────────────────────────────────────────── -->
-  <g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:14px;font-style:normal;font-weight:normal;text-decoration:none;text-anchor:start;dominant-baseline:auto;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">
-    <rect x="458" y="382" width="150" height="66" rx="8" stroke-width="0.5" style="fill:rgb(250, 236, 231);stroke:rgb(153, 60, 29);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
-    <text x="533" y="406" text-anchor="middle" dominant-baseline="central" style="fill:rgb(113, 43, 19);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:13px;font-style:normal;font-weight:600;text-decoration:none;text-anchor:middle;dominant-baseline:central;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">Tool Node</text>
-    <text x="533" y="424" text-anchor="middle" dominant-baseline="central" style="fill:rgb(153, 60, 29);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:12px;font-style:normal;font-weight:normal;text-decoration:none;text-anchor:middle;dominant-baseline:central;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">Executes Tools</text>
+  <g>
+    <rect x="458" y="382" width="150" height="66" rx="8" fill="rgb(250, 236, 231)" stroke="rgb(153, 60, 29)" stroke-width="0.5"/>
+    <text x="533" y="406" text-anchor="middle" dominant-baseline="central" fill="rgb(113, 43, 19)" font-size="13px" font-weight="600">Tool Node</text>
+    <text x="533" y="424" text-anchor="middle" dominant-baseline="central" fill="rgb(153, 60, 29)" font-size="12px">Executes Tools</text>
   </g>
 
   <!-- Tool Node result back to Agent (curved path) -->
-  <path d="M608 415 Q640 415 640 340 Q640 300 480 300 Q340 300 340 378" fill="none" stroke="var(--color-border-primary)" stroke-width="1" stroke-dasharray="5 3" marker-end="url(#arrow)" mask="url(#imagine-text-gaps-8tqk38)" style="fill:none;stroke:rgba(31, 30, 29, 0.4);color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
-  <text x="620" y="356" text-anchor="middle" fill="var(--color-text-secondary)" style="fill:rgb(61, 61, 58);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:11px;font-style:normal;font-weight:600;text-decoration:none;text-anchor:middle;dominant-baseline:auto;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">Result</text>
+  <path d="M608 415 Q640 415 640 340 Q640 300 480 300 Q340 300 340 378" fill="none" stroke="rgba(31, 30, 29, 0.4)" stroke-width="1" stroke-dasharray="5 3" marker-end="url(#arrow)"/>
+  <text x="620" y="356" text-anchor="middle" fill="rgb(61, 61, 58)" font-size="11px" font-weight="600">Result</text>
 
   <!-- NO branch → END -->
-  <path d="M290 504 L160 504 L160 466" fill="none" stroke="var(--color-border-primary)" stroke-width="1" marker-end="url(#arrow)" style="fill:none;stroke:rgba(31, 30, 29, 0.4);color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
-  <text x="228" y="496" text-anchor="middle" fill="var(--color-text-secondary)" style="fill:rgb(61, 61, 58);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:11px;font-style:normal;font-weight:600;text-decoration:none;text-anchor:middle;dominant-baseline:auto;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">No</text>
+  <path d="M290 504 L160 504 L160 466" fill="none" stroke="rgba(31, 30, 29, 0.4)" stroke-width="1" marker-end="url(#arrow)"/>
+  <text x="228" y="496" text-anchor="middle" fill="rgb(61, 61, 58)" font-size="11px" font-weight="600">No</text>
 
   <!-- END node -->
-  <g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:14px;font-style:normal;font-weight:normal;text-decoration:none;text-anchor:start;dominant-baseline:auto;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">
-    <rect x="88" y="382" width="144" height="66" rx="8" stroke-width="0.5" style="fill:rgb(241, 239, 232);stroke:rgb(95, 94, 90);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
-    <text x="160" y="406" text-anchor="middle" dominant-baseline="central" style="fill:rgb(68, 68, 65);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:13px;font-style:normal;font-weight:600;text-decoration:none;text-anchor:middle;dominant-baseline:central;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">END</text>
-    <text x="160" y="424" text-anchor="middle" dominant-baseline="central" style="fill:rgb(95, 94, 90);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:12px;font-style:normal;font-weight:normal;text-decoration:none;text-anchor:middle;dominant-baseline:central;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">Node</text>
+  <g>
+    <rect x="88" y="382" width="144" height="66" rx="8" fill="rgb(241, 239, 232)" stroke="rgb(95, 94, 90)" stroke-width="0.5"/>
+    <text x="160" y="406" text-anchor="middle" dominant-baseline="central" fill="rgb(68, 68, 65)" font-size="13px" font-weight="600">END</text>
+    <text x="160" y="424" text-anchor="middle" dominant-baseline="central" fill="rgb(95, 94, 90)" font-size="12px">Node</text>
   </g>
 
   <!-- END → Gradio (response back up) -->
-  <path d="M88 415 Q60 415 60 240 Q60 222 213 236" fill="none" stroke="var(--color-border-tertiary)" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrow)" mask="url(#imagine-text-gaps-8tqk38)" style="fill:none;stroke:rgba(31, 30, 29, 0.15);color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
-  <text x="56" y="310" text-anchor="start" fill="var(--color-text-tertiary)" style="fill:rgb(61, 61, 58);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:11px;font-style:normal;font-weight:600;text-decoration:none;text-anchor:start;dominant-baseline:auto;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">Response</text>
+  <path d="M88 415 Q60 415 60 240 Q60 222 213 236" fill="none" stroke="rgba(31, 30, 29, 0.15)" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+  <text x="56" y="310" text-anchor="start" fill="rgb(61, 61, 58)" font-size="11px" font-weight="600">Response</text>
 
   <!-- ── TOOLS LAYER ──────────────────────────────────────────── -->
 
   <!-- Tool node → tools layer connector -->
-  <line x1="533" y1="448" x2="533" y2="630" stroke-dasharray="4 3" marker-end="url(#arrow)" style="fill:none;stroke:rgb(115, 114, 108);color:rgb(0, 0, 0);stroke-width:1.5px;stroke-dasharray:4px, 3px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
-  <line x1="160" y1="630" x2="533" y2="630" stroke="var(--color-border-tertiary)" stroke-width="0.5" stroke-dasharray="4 3" style="fill:rgb(0, 0, 0);stroke:rgba(31, 30, 29, 0.15);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
+  <line x1="533" y1="448" x2="533" y2="630" stroke="rgb(115, 114, 108)" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+  <line x1="160" y1="630" x2="533" y2="630" stroke="rgba(31, 30, 29, 0.15)" stroke-width="0.5" stroke-dasharray="4 3"/>
 
   <!-- Tool 1: Wikipedia -->
-  <g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:14px;font-style:normal;font-weight:normal;text-decoration:none;text-anchor:start;dominant-baseline:auto;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">
-    <rect x="50" y="638" width="138" height="56" rx="8" stroke-width="0.5" style="fill:rgb(230, 241, 251);stroke:rgb(24, 95, 165);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
-    <text x="119" y="660" text-anchor="middle" dominant-baseline="central" style="fill:rgb(12, 68, 124);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:13px;font-style:normal;font-weight:600;text-decoration:none;text-anchor:middle;dominant-baseline:central;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">Wikipedia</text>
-    <text x="119" y="678" text-anchor="middle" dominant-baseline="central" style="fill:rgb(24, 95, 165);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:12px;font-style:normal;font-weight:normal;text-decoration:none;text-anchor:middle;dominant-baseline:central;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">Search</text>
+  <g>
+    <rect x="50" y="638" width="138" height="56" rx="8" fill="rgb(230, 241, 251)" stroke="rgb(24, 95, 165)" stroke-width="0.5"/>
+    <text x="119" y="660" text-anchor="middle" dominant-baseline="central" fill="rgb(12, 68, 124)" font-size="13px" font-weight="600">Wikipedia</text>
+    <text x="119" y="678" text-anchor="middle" dominant-baseline="central" fill="rgb(24, 95, 165)" font-size="12px">Search</text>
   </g>
-  <line x1="119" y1="630" x2="119" y2="636" stroke="var(--color-border-secondary)" stroke-width="0.5" marker-end="url(#arrow)" style="fill:none;stroke:rgb(115, 114, 108);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
+  <line x1="119" y1="630" x2="119" y2="636" stroke="rgb(115, 114, 108)" stroke-width="0.5" marker-end="url(#arrow)"/>
 
   <!-- Tool 2: Weather -->
-  <g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:14px;font-style:normal;font-weight:normal;text-decoration:none;text-anchor:start;dominant-baseline:auto;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">
-    <rect x="208" y="638" width="138" height="56" rx="8" stroke-width="0.5" style="fill:rgb(225, 245, 238);stroke:rgb(15, 110, 86);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
-    <text x="277" y="660" text-anchor="middle" dominant-baseline="central" style="fill:rgb(8, 80, 65);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:13px;font-style:normal;font-weight:600;text-decoration:none;text-anchor:middle;dominant-baseline:central;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">Weather</text>
-    <text x="277" y="678" text-anchor="middle" dominant-baseline="central" style="fill:rgb(15, 110, 86);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:12px;font-style:normal;font-weight:normal;text-decoration:none;text-anchor:middle;dominant-baseline:central;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">API</text>
+  <g>
+    <rect x="208" y="638" width="138" height="56" rx="8" fill="rgb(225, 245, 238)" stroke="rgb(15, 110, 86)" stroke-width="0.5"/>
+    <text x="277" y="660" text-anchor="middle" dominant-baseline="central" fill="rgb(8, 80, 65)" font-size="13px" font-weight="600">Weather</text>
+    <text x="277" y="678" text-anchor="middle" dominant-baseline="central" fill="rgb(15, 110, 86)" font-size="12px">API</text>
   </g>
-  <line x1="277" y1="630" x2="277" y2="636" stroke="var(--color-border-secondary)" stroke-width="0.5" marker-end="url(#arrow)" style="fill:none;stroke:rgb(115, 114, 108);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
+  <line x1="277" y1="630" x2="277" y2="636" stroke="rgb(115, 114, 108)" stroke-width="0.5" marker-end="url(#arrow)"/>
 
   <!-- Tool 3: Joke API -->
-  <g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:14px;font-style:normal;font-weight:normal;text-decoration:none;text-anchor:start;dominant-baseline:auto;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">
-    <rect x="366" y="638" width="138" height="56" rx="8" stroke-width="0.5" style="fill:rgb(250, 238, 218);stroke:rgb(133, 79, 11);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
-    <text x="435" y="660" text-anchor="middle" dominant-baseline="central" style="fill:rgb(99, 56, 6);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:13px;font-style:normal;font-weight:600;text-decoration:none;text-anchor:middle;dominant-baseline:central;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">Joke API</text>
-    <text x="435" y="678" text-anchor="middle" dominant-baseline="central" style="fill:rgb(133, 79, 11);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:12px;font-style:normal;font-weight:normal;text-decoration:none;text-anchor:middle;dominant-baseline:central;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">Retrieve Jokes</text>
+  <g>
+    <rect x="366" y="638" width="138" height="56" rx="8" fill="rgb(250, 238, 218)" stroke="rgb(133, 79, 11)" stroke-width="0.5"/>
+    <text x="435" y="660" text-anchor="middle" dominant-baseline="central" fill="rgb(99, 56, 6)" font-size="13px" font-weight="600">Joke API</text>
+    <text x="435" y="678" text-anchor="middle" dominant-baseline="central" fill="rgb(133, 79, 11)" font-size="12px">Retrieve Jokes</text>
   </g>
-  <line x1="435" y1="630" x2="435" y2="636" stroke="var(--color-border-secondary)" stroke-width="0.5" marker-end="url(#arrow)" style="fill:none;stroke:rgb(115, 114, 108);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
+  <line x1="435" y1="630" x2="435" y2="636" stroke="rgb(115, 114, 108)" stroke-width="0.5" marker-end="url(#arrow)"/>
 
   <!-- Tool 4: Calculator -->
-  <g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:14px;font-style:normal;font-weight:normal;text-decoration:none;text-anchor:start;dominant-baseline:auto;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">
-    <rect x="524" y="638" width="138" height="56" rx="8" stroke-width="0.5" style="fill:rgb(234, 243, 222);stroke:rgb(59, 109, 17);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
-    <text x="593" y="660" text-anchor="middle" dominant-baseline="central" style="fill:rgb(39, 80, 10);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:13px;font-style:normal;font-weight:600;text-decoration:none;text-anchor:middle;dominant-baseline:central;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">Calculator</text>
-    <text x="593" y="678" text-anchor="middle" dominant-baseline="central" style="fill:rgb(59, 109, 17);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:12px;font-style:normal;font-weight:normal;text-decoration:none;text-anchor:middle;dominant-baseline:central;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">Math Operations</text>
+  <g>
+    <rect x="524" y="638" width="138" height="56" rx="8" fill="rgb(234, 243, 222)" stroke="rgb(59, 109, 17)" stroke-width="0.5"/>
+    <text x="593" y="660" text-anchor="middle" dominant-baseline="central" fill="rgb(39, 80, 10)" font-size="13px" font-weight="600">Calculator</text>
+    <text x="593" y="678" text-anchor="middle" dominant-baseline="central" fill="rgb(59, 109, 17)" font-size="12px">Math Operations</text>
   </g>
-  <line x1="593" y1="630" x2="593" y2="636" stroke="var(--color-border-secondary)" stroke-width="0.5" marker-end="url(#arrow)" style="fill:none;stroke:rgb(115, 114, 108);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
+  <line x1="593" y1="630" x2="593" y2="636" stroke="rgb(115, 114, 108)" stroke-width="0.5" marker-end="url(#arrow)"/>
 
   <!-- ── MEMORY LAYER ─────────────────────────────────────────── -->
-  <g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:14px;font-style:normal;font-weight:normal;text-decoration:none;text-anchor:start;dominant-baseline:auto;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">
-    <rect x="180" y="758" width="320" height="56" rx="8" stroke-width="0.5" style="fill:rgb(238, 237, 254);stroke:rgb(83, 74, 183);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
-    <text x="340" y="780" text-anchor="middle" dominant-baseline="central" style="fill:rgb(60, 52, 137);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:13px;font-style:normal;font-weight:600;text-decoration:none;text-anchor:middle;dominant-baseline:central;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">Memory Storage</text>
-    <text x="340" y="798" text-anchor="middle" dominant-baseline="central" style="fill:rgb(83, 74, 183);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:12px;font-style:normal;font-weight:normal;text-decoration:none;text-anchor:middle;dominant-baseline:central;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">Conversation History</text>
+  <g>
+    <rect x="180" y="758" width="320" height="56" rx="8" fill="rgb(238, 237, 254)" stroke="rgb(83, 74, 183)" stroke-width="0.5"/>
+    <text x="340" y="780" text-anchor="middle" dominant-baseline="central" fill="rgb(60, 52, 137)" font-size="13px" font-weight="600">Memory Storage</text>
+    <text x="340" y="798" text-anchor="middle" dominant-baseline="central" fill="rgb(83, 74, 183)" font-size="12px">Conversation History</text>
   </g>
 
   <!-- LangGraph box ↔ Memory bidirectional -->
-  <line x1="280" y1="604" x2="280" y2="756" stroke="var(--color-border-tertiary)" stroke-width="0.5" stroke-dasharray="4 3" marker-end="url(#arrow)" mask="url(#imagine-text-gaps-8tqk38)" style="fill:rgb(0, 0, 0);stroke:rgba(31, 30, 29, 0.15);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
-  <line x1="400" y1="756" x2="400" y2="604" stroke="var(--color-border-tertiary)" stroke-width="0.5" stroke-dasharray="4 3" marker-end="url(#arrow)" mask="url(#imagine-text-gaps-8tqk38)" style="fill:rgb(0, 0, 0);stroke:rgba(31, 30, 29, 0.15);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;"/>
-  <text x="422" y="696" fill="var(--color-text-tertiary)" style="fill:rgb(61, 61, 58);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystem Font, Segoe UI, Roboto, Helvetica Neue, sans-serif;font-size:11px;font-style:normal;font-weight:600;text-decoration:none;text-anchor:start;dominant-baseline:auto;letter-spacing:normal;word-spacing:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;">Context Awareness</text>
+  <line x1="280" y1="604" x2="280" y2="756" stroke="rgba(31, 30, 29, 0.15)" stroke-width="0.5" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+  <line x1="400" y1="756" x2="400" y2="604" stroke="rgba(31, 30, 29, 0.15)" stroke-width="0.5" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+  <text x="422" y="696" fill="rgb(61, 61, 58)" font-size="11px" font-weight="600">Context Awareness</text>
 
 </svg>
