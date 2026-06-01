@@ -1,4 +1,4 @@
-markdown# 🤖 Agentic AI Research Assistant
+## 🤖 Agentic AI Research Assistant
 
 > Built with LangChain · LangGraph · Groq (LLaMA 3.3) · Gradio
 
